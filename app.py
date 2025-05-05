@@ -6,7 +6,7 @@ def local_css(css_file):
     with open(css_file, encoding="utf-8") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("C:/Users/ziheW/OneDrive/Desktop/python/python数据分析/第十周/Streamlit_UI_Template/templates/template1_style.css")
+local_css("templates/template1_style.css")
 
 from 第十周文件上传题 import Point, PointPlotter, ArrayPlotter, AudioPlotter, TextPlotter, ImagePlotter
 
